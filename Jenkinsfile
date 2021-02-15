@@ -1,5 +1,5 @@
 pipeline {
-
+  
   agent any
   
   stages {
@@ -7,7 +7,7 @@ pipeline {
     stage("build") {
     
       steps {
-        echo 'it's alive'
+        echo 'its alive'
       }
     }
   }
